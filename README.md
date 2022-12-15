@@ -4,7 +4,7 @@ In semi-supervised learning, the model is trained on a dataset that is partial
 
 
 <div id="header" align="center">
-  <img src="images/Semi_supervised.PNG" />
+  <img src="images/Semi_supervised.png" />
 </div>
 
 # What Are Graph Neural Network?
