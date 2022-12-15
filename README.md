@@ -44,3 +44,26 @@ Graph Convolution neural network is special type of Convolution neural network w
   <img src="images/figure.png" />
 </div>
 
+
+# Cora Dataseet
+
+The Cora dataset consists of 2708 scientific publications classified into one of seven classes. The citation network consists of 5429 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1433 unique words.
+
+# In this repo 
+
+the whole idea is about semi supervised learning so both folders' idea is about Transductive learning, as, when we do the fast forward, we use all nodes (train-test-val) assuming that test and val nodes have not labels but while calcuating the loss and training accuracy we use the training nodes only (Labeled nodes)
+
+The code is well documented and easy to follow. 
+
+# Licencse 
+
+papers that implementeed in this Repo:
+
+1- Graph Attention Networks  https://arxiv.org/abs/1710.10903
+2- Semi-Supervised Classification with Graph Convolutional Networks. https://arxiv.org/abs/1609.02907
+
+We used other official and unofficial Github implementations to reimplement these papers, So, Thanks to:
+https://github.com/gordicaleksa/pytorch-GAT. and https://github.com/tkipf/pygcn 
+
+
+
