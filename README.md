@@ -9,7 +9,7 @@ In semi-supervised learning, the model is trained on a dataset that is partial
 </div>
 
 
-while the inductive way is focused on predicting all
+In the former method they divide the semisupervised methods into inductive and Transductive method. there is a distinction between inductive semi-supervised learning and transductive learning. In inductive semi-supervised learning, the learner has both labeled training (𝑙) data {(𝐱𝑖,𝑦𝑖)} 𝑖=1  ∼ 𝑝(𝐱,𝑦) and unlabeled training data {𝐱j} j=𝑙+1 ∼ p(x), and learns a predictor 𝑓 : X ↦ Y f : X ↦ Y, 𝑓 ∈ F where F is the hypothesis space. Here x∈X is an input instance, y∈Y its target label (discrete for classification or continuous for regression), p(x, y) the unknown joint distribution and p(x) its marginal. The goal is to learn a predictor that predicts future test data better than the predictor learned from the labeled training data alone. In transductive learning, which has been understood since the very first theorems of Vapink-Chervonenkis (VC). firstly introduced in the  the setting is the same except that one is solely interested in the predictions on the unlabeled training data {𝐗j} j=𝑙+1, without any intention to generalize to future test data 
 
 
 # What Are Graph Neural Network?
@@ -30,6 +30,13 @@ graph attention networks (GATs), novel neural network architectures that operate
 
 
 # 2- Graph convlutional Netowrks
+Graph Convolution neural network is special type of Convolution neural network where the model deals with graph structured data. There are common types of problems that GCNs deal with:
+
+1- Node classification: where each node needs to be classified based on the neighborhood nodes
+
+2- Graph classification: this where the whole graph needs to be classified.
+
+3- Link predictions: when you are interested in predicting the type of links between nodes. e.g bound prediction between atoms in medicinal chemistry.
 
 
 
